@@ -1,0 +1,10 @@
+<script src="scripts/app.js"></script>
+<script src="scripts/getdata.js"></script>
+<script src="scripts/player.js"></script>
+<script src="scripts/visualiser.js"></script>
+
+<link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/mobile.css">
+    <link rel="stylesheet" href="styles/tablet.css">
+    <link rel="stylesheet" href="styles/desktop.css">

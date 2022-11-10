@@ -1,0 +1,614 @@
+[
+  {
+    "TITRE": "Mental 1Fra 163 BPM",
+    "ARTISTE": "Vandal",
+    "DUREE": "29:29:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandalll-mental-1fra-163-bpm/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "MENTAL",
+    "DIR": "BD5KRADIO/mental163"
+  },
+  {
+    "TITRE": "What a feeling",
+    "ARTISTE": "Pivi",
+    "DUREE": "34:02:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/what-a-feeling/",
+    "STYLE": "ALTERNATIVE",
+    "SUBSTYLE": "INDIE",
+    "DIR": "BD5KRADIO/whatAFeel"
+  },
+  {
+    "TITRE": "Back to Back",
+    "ARTISTE": "Zzz",
+    "DUREE": "44:01:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/back-to-back-zzz/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "TRAP",
+    "DIR": "BD5KRADIO/back2back"
+  },
+  {
+    "TITRE": "A Road to Speed and Distortion",
+    "ARTISTE": "Vandal",
+    "DUREE": "45:22:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/a-road-to-speed-and-distortion/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "GABBER",
+    "DIR": "BD5KRADIO/roadToSpeed (no mp3)"
+  },
+  {
+    "TITRE": "Feel da Phonk vol.1 : Back to 90s Memphis",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:21:12",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/feel-da-phonk-vol1-back-to-90s-memphis/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "PHONK",
+    "DIR": "BD5KRADIO/feelDaPhonk"
+  },
+  {
+    "TITRE": "Hardtek",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:09:25",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-hardtek/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "HARDTEK",
+    "DIR": "BD5KRADIO/hardtek"
+  },
+  {
+    "TITRE": "Sonideros sound",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:01:48",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-sondieros-sound/",
+    "STYLE": "LATIN",
+    "SUBSTYLE": "SALSA",
+    "DIR": "BD5KRADIO/sondieros"
+  },
+  {
+    "TITRE": "Reggaeton & rap",
+    "ARTISTE": "BEAT&COOT03",
+    "DUREE": "01:03:31",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/mage-reggaeton-rap/",
+    "STYLE": "LATIN",
+    "SUBSTYLE": "REGGAETON",
+    "DIR": "BD5KRADIO/rapAndReggaeton"
+  },
+  {
+    "TITRE": "Hardcore Invazion",
+    "ARTISTE": "Vandal",
+    "DUREE": "55:05:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-hardcore-invazion/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "HARDCORE",
+    "DIR": "BD5KRADIO/coreInvazion"
+  },
+  {
+    "TITRE": "Spécial Hip-Hip pour la ferme de l'ilôt",
+    "ARTISTE": "BEAT&COOT0 & MGBZZ",
+    "DUREE": "01:13:33",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/special-hip-hop-pour-la-ferme-de-lilot-mgbzzxbtct/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "OLDSCHOOL",
+    "DIR": "BD5KRADIO/hiphopFerme"
+  },
+  {
+    "TITRE": "Peinard",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:33:08",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/peinard-dj-beatc00to-2021/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/peinard"
+  },
+  {
+    "TITRE": "Freestyle.II",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "59:23:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/mgbzz-freestyleii/",
+    "STYLE": "MIX",
+    "SUBSTYLE": null,
+    "DIR": "BD5KRADIO/freestyleII"
+  },
+  {
+    "TITRE": "The Paris Oddities",
+    "ARTISTE": "Gloomy",
+    "DUREE": "37:44:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/gloomy-the-paris-oddities/",
+    "STYLE": "POP",
+    "SUBSTYLE": "HAZEPOP",
+    "DIR": "BD5KRADIO/parisOdd"
+  },
+  {
+    "TITRE": "Cult Girlfriend",
+    "ARTISTE": "Pivi",
+    "DUREE": "01:23:01",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/pivi-cult-girlfriend/",
+    "STYLE": "ALTERNATIVE",
+    "SUBSTYLE": "INDIE",
+    "DIR": "BD5KRADIO/cultGf"
+  },
+  {
+    "TITRE": "Trajet II",
+    "ARTISTE": "Vandal",
+    "DUREE": "59:04:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-trajet-ii/",
+    "STYLE": "MIX",
+    "SUBSTYLE": null,
+    "DIR": "BD5KRADIO/trajetII"
+  },
+  {
+    "TITRE": "What's in my head",
+    "ARTISTE": "Mage",
+    "DUREE": "56:44:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/mage-whats-in-my-head/",
+    "STYLE": "ROCK",
+    "SUBSTYLE": "PSYCHDELIC",
+    "DIR": "BD5KRADIO/myHead"
+  },
+  {
+    "TITRE": "Pournima Dhumale",
+    "ARTISTE": "Pivi",
+    "DUREE": "55:51:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/raag-bheem-pourniama-dhumale-dj-ez/",
+    "STYLE": "RAAG",
+    "SUBSTYLE": "BHEEM",
+    "DIR": "BD5KRADIO/pournima"
+  },
+  {
+    "TITRE": "420'",
+    "ARTISTE": "BEAT&COOT0 & MGBZZ",
+    "DUREE": "01:00:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/420-beatcoot0-x-mgbzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/420"
+  },
+  {
+    "TITRE": "Fleurs Fanées vol.IV",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:06:48",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/fleurs-fanees-voliv/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "OLDSCHOOL",
+    "DIR": "BD5KRADIO/fleursFaneesIV"
+  },
+  {
+    "TITRE": "Monsieur Jack",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:03:23",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/monsieur-jack-par-dj-vandal/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": null,
+    "DIR": "BD5KRADIO/monsieurJack"
+  },
+  {
+    "TITRE": "Cxld Chrxstmxs",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:00:26",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/cxld-chrxstmxs-par-btct/",
+    "STYLE": "ALTERNATIVE",
+    "SUBSTYLE": "COLDWAVE",
+    "DIR": "BD5KRADIO/cxldChrxstmxs"
+  },
+  {
+    "TITRE": "Sweet Dreams",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "01:07:48",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/sweet-dreams-par-mgbzz/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/sweetDream"
+  },
+  {
+    "TITRE": "Champotek",
+    "ARTISTE": "BEAT&COOT0 &MGBZZ",
+    "DUREE": "02:14:09",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/champotek-par-mgbzz/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "ACID",
+    "DIR": "BD5KRADIO/champotek"
+  },
+  {
+    "TITRE": "FREESTYLE",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "01:00:54",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/freestyle-par-mgbzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/freestyle"
+  },
+  {
+    "TITRE": "Balance tes sons",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "31:02:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/balances-tes-sons-par-btct/",
+    "STYLE": "ROCK",
+    "SUBSTYLE": "PSYCHDELIC",
+    "DIR": "BD5KRADIO/balance"
+  },
+  {
+    "TITRE": "L part.III",
+    "ARTISTE": "BEAT&COOT0 & MGBZZ",
+    "DUREE": "01:01:01",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/l-partiii-mgbz-x-btct/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/lpIII"
+  },
+  {
+    "TITRE": "Supertra(m)p",
+    "ARTISTE": "Zzz",
+    "DUREE": "59:44:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/supertrans-by-dj-ez/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "TRAP",
+    "DIR": "BD5KRADIO/supertramp"
+  },
+  {
+    "TITRE": "Flying",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "56:14:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/flying-dj-mgbzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/flying"
+  },
+  {
+    "TITRE": "23 Tribes",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:01:39",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/23-tribes-by-dj-vandal/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "TRIBE",
+    "DIR": "BD5KRADIO/23tribes"
+  },
+  {
+    "TITRE": "80's bby",
+    "ARTISTE": "BEAT&COOT0 & MGBZZ",
+    "DUREE": "01:04:31",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/80s-bby-by-dj-beatcoot0/",
+    "STYLE": "ROCK",
+    "SUBSTYLE": "GOTHIC",
+    "DIR": "BD5KRADIO/80sBby"
+  },
+  {
+    "TITRE": "Shoegaze de l'Europe de l'Est",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:01:55",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/shoegaze-deurope-de-lest-by-dj-beatcoot0/",
+    "STYLE": "ROCK",
+    "SUBSTYLE": "SHOEGAZE",
+    "DIR": "BD5KRADIO/shoegazeEast"
+  },
+  {
+    "TITRE": "Smooth State",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:20:34",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/smooth-state-dj-vandal/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": null,
+    "DIR": "BD5KRADIO/smoothState"
+  },
+  {
+    "TITRE": "Fleurs fanées vol.II",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:00:42",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/fleurs-fanees-volii-dj-vandal/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "OLDSCHOOL",
+    "DIR": "BD5KRADIO/fleursFaneesII"
+  },
+  {
+    "TITRE": "Samedi 11h43, batteries sur secteur",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:02:41",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/samedi-11h43-batteries-sur-secteur-by-dj-beatc00t0/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/samediBatterie"
+  },
+  {
+    "TITRE": "Special 5K RADIO",
+    "ARTISTE": "Ghernati",
+    "DUREE": "01:01:19",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/special-podcast-for-5k-radio-paris-by-ghernati/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "DEEP",
+    "DIR": "BD5KRADIO/ghernati"
+  },
+  {
+    "TITRE": "Lowtimes",
+    "ARTISTE": "MGBZZ  & BRUSS",
+    "DUREE": "59:35:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/lowtimes-dj-bruss-x-dj-mgbzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/lowTimes"
+  },
+  {
+    "TITRE": "Tech me somewhere fun",
+    "ARTISTE": "Likma",
+    "DUREE": "01:29:11",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/tech-me-somewhere-fun-by-dj-likma/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": null,
+    "DIR": "BD5KRADIO/techMe"
+  },
+  {
+    "TITRE": "Needing ... change",
+    "ARTISTE": "Zzz",
+    "DUREE": "01:33:24",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/phases/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/needingChange"
+  },
+  {
+    "TITRE": "Souvenirs d'enfance vol.II",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "59:59:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/souvenir-denfance-volii-ou-un-dimanche-sous-la-pluie-by-dj-mgbzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/souvenirII"
+  },
+  {
+    "TITRE": "Souvenirs d'enfance vol.I",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "01:30:10",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/souvenirs-denfance-voli-ou-un-dimanche-sous-la-couette-by-dj-mgbzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/souvenirI"
+  },
+  {
+    "TITRE": "Eclektik vol.I",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:01:21",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/eclectik-voli-by-dj-beatcoot0/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/eclektikI"
+  },
+  {
+    "TITRE": "Mall Goth",
+    "ARTISTE": "Pivi",
+    "DUREE": "01:04:32",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/mall-goth-by-dj-ez/",
+    "STYLE": "ROCK",
+    "SUBSTYLE": "GOTHIC",
+    "DIR": "BD5KRADIO/mallGoth"
+  },
+  {
+    "TITRE": "Désordre Mental n°23",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:11:29",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/desordre-mental-n3-by-dj-vandal/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "MENTAL",
+    "DIR": "BD5KRADIO/desordreMental23"
+  },
+  {
+    "TITRE": "Voices against apartheid",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "59:28:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/voices-against-apartheid-by-dj-beatcoot0/",
+    "STYLE": "POLITICS",
+    "SUBSTYLE": "SOUTH AFRICA",
+    "DIR": "BD5KRADIO/voixContre"
+  },
+  {
+    "TITRE": "WALKA",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "01:00:20",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/walka-by-dj-mgbzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "EAST EUROPE",
+    "DIR": "BD5KRADIO/walka"
+  },
+  {
+    "TITRE": "V2LS 2016",
+    "ARTISTE": "Zzz",
+    "DUREE": "57:52:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/v2ls-2016-dj-ez/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "OLDSCHOOL",
+    "DIR": "BD5KRADIO/v2ls16"
+  },
+  {
+    "TITRE": "No technicality",
+    "ARTISTE": "Zzz",
+    "DUREE": "59:18:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/no-technicality-dj-ez/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "TRAP",
+    "DIR": "BD5KRADIO/noTech"
+  },
+  {
+    "TITRE": "UNDERGROUND RESISTANCE",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:00:12",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/underground-resistance-detroits-second-techno-wave/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "DETROIT",
+    "DIR": "BD5KRADIO/ur"
+  },
+  {
+    "TITRE": "L part.II",
+    "ARTISTE": "BEAT&COOT0 & MGBZZ",
+    "DUREE": "59:31:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/l-partii/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/lpII"
+  },
+  {
+    "TITRE": "Fleurs fanées",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:07:18",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/fleurs-fanees-by-dj-vandal/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "OLDSCHOOL",
+    "DIR": "BD5KRADIO/fleursFanees"
+  },
+  {
+    "TITRE": "Zamrock",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:00:28",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/zamrock-by-dj-beatscoot0/",
+    "STYLE": "ROCK",
+    "SUBSTYLE": "ZAMBIA",
+    "DIR": "BD5KRADIO/zamrock"
+  },
+  {
+    "TITRE": "Aléatoire vol.III",
+    "ARTISTE": "Zzz",
+    "DUREE": "01:03:28",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/aleatoire-voliii-by-dj-zzz/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "ARABIC",
+    "DIR": "BD5KRADIO/aleIII"
+  },
+  {
+    "TITRE": "Trajet",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:52:45",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/trajet/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/trajet"
+  },
+  {
+    "TITRE": "L part.I",
+    "ARTISTE": "BEAT&COOT0 & MGBZZ",
+    "DUREE": "01:04:42",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/l-part-1-dj-mgbz-x-dj-beatcoot0/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/lpI"
+  },
+  {
+    "TITRE": "Objectif Lune",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "01:15:43",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/objectif-lune/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/objectifLune"
+  },
+  {
+    "TITRE": "On shuffle",
+    "ARTISTE": "Zzz",
+    "DUREE": "01:00:32",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/on-shuffle-special-middle-east-x-india-bengal-rap-by-dj-zzz/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "ARABIC",
+    "DIR": "BD5KRADIO/shuffle"
+  },
+  {
+    "TITRE": "SSHHLLWWTRBZ",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:31:02",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/sshhllwwtrbz/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "SESH",
+    "DIR": "BD5KRADIO/sshllwtrbz"
+  },
+  {
+    "TITRE": "Sémiramis",
+    "ARTISTE": "Vandal",
+    "DUREE": "01:08:30",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/semiramis-by-dj-vandal/",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": null,
+    "DIR": "BD5KRADIO/semiramis"
+  },
+  {
+    "TITRE": "LONDON BURNIN'",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:00:22",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/london-burnin/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "GRIME",
+    "DIR": "BD5KRADIO/londonBurnin"
+  },
+  {
+    "TITRE": "American Beauty",
+    "ARTISTE": "Pivi",
+    "DUREE": "53:48:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/american-beauty/",
+    "STYLE": "ALTERNATIVE",
+    "SUBSTYLE": "INDIE",
+    "DIR": "BD5KRADIO/americanBeauty"
+  },
+  {
+    "TITRE": "From East to West",
+    "ARTISTE": "ZALIE &  NOP",
+    "DUREE": "01:00:29",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/from-east-to-west-classic-hiphop/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "OLDSCHOOL",
+    "DIR": "BD5KRADIO/eastToWest"
+  },
+  {
+    "TITRE": "Shoegazer",
+    "ARTISTE": "FONDU & TRANSI",
+    "DUREE": "42:58:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/shoegazer-par-djfondu-et-djtransi/",
+    "STYLE": "ROCK",
+    "SUBSTYLE": "SHOEGAZE",
+    "DIR": "BD5KRADIO/shoegazer"
+  },
+  {
+    "TITRE": "SIAK",
+    "ARTISTE": "Zzz",
+    "DUREE": "01:00:29",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/siak/",
+    "STYLE": "MIX",
+    "SUBSTYLE": "CHILL",
+    "DIR": "BD5KRADIO/siak"
+  },
+  {
+    "TITRE": "Rap oldschool",
+    "ARTISTE": "Vandal",
+    "DUREE": "59:07:00",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/rap-oldschool-by-djvandal/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "OLDSCHOOL",
+    "DIR": "BD5KRADIO/rapOldschool"
+  },
+  {
+    "TITRE": "Nueve Uno",
+    "ARTISTE": "BEAT&COOT0",
+    "DUREE": "01:00:21",
+    "URL": "https://www.mixcloud.com/5KRADIOLIVE/nueve-uno/",
+    "STYLE": "RAP",
+    "SUBSTYLE": "FRENCH",
+    "DIR": "BD5KRADIO/nueveUno"
+  },
+  {
+    "TITRE": "Staff Benda Billili",
+    "ARTISTE": "MGBZZ",
+    "DUREE": "N/A",
+    "URL": "N/A",
+    "STYLE": "CHILL",
+    "SUBSTYLE": "N/A",
+    "DIR": "BD5KRADIO/staff"
+  },
+  {
+    "TITRE": "Berlin Entrance",
+    "ARTISTE": "Vandal",
+    "DUREE": "N/A",
+    "URL": "N/A",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "N/A",
+    "DIR": "BD5KRADIO/berlinEntrance"
+  },
+  {
+    "TITRE": "Et ça galope",
+    "ARTISTE": "Vandal",
+    "DUREE": "N/A",
+    "URL": "N/A",
+    "STYLE": "TECHNO",
+    "SUBSTYLE": "N/A",
+    "DIR": "BD5KRADIO/caGalope"
+  }
+]
