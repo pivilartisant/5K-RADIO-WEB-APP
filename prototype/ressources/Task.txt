@@ -1,0 +1,1 @@
+So the first thing i need to do is to create a script that gets my data from the json file and injects it to the screen

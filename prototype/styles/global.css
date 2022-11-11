@@ -1,4 +1,6 @@
-.cover-image {
-    height: 200px;
-    width: 200px;
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* background-color: black; */
 }

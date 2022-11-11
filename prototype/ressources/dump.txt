@@ -8,3 +8,19 @@
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="stylesheet" href="styles/tablet.css">
     <link rel="stylesheet" href="styles/desktop.css">
+
+
+
+    Deleted mix from the json files : 
+
+    roadToSpeed.jpg
+
+{
+  "TITRE": "A Road to Speed and Distortion",
+  "ARTISTE": "Vandal",
+  "DUREE": "45:22:00",
+  "URL": "https://www.mixcloud.com/5KRADIOLIVE/a-road-to-speed-and-distortion/",
+  "STYLE": "TECHNO",
+  "SUBSTYLE": "GABBER",
+  "DIR": "BD5KRADIO/roadToSpeed/roadToSpeed (no mp3)"
+},
