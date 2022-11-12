@@ -13,13 +13,115 @@
 </head>
 <body>
 
+<nav class="nav">
+    <div class="navcontainer">
+        <div class="logo-container">
+            <h1 id="logo">5K RADIO</h1>
+        </div>
+    </div>
+</nav>
 
+
+<main class="main-container">
+
+    <div class="search-filter-container">
+        <div class="search-content">
+                <div class="search-icon">
+                    <img src="./ressources/image/Search.png" alt="Search icon" srcset="">
+                </div>
+            </div>
+            <div class="filter-content">
+                <div class="filter-title">
+                    <p>Filter</p>
+                </div>
+                <div class="filter-icon">
+                    <img src="./ressources/image/FilterIcon.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+        
     <div class="mix-lib-container">
 
-        <div class="cover-image-container" id="cover_image_container" ></div>
+        <div class="cover-image-container" id="cover_image_container">
+        </div>
 
     </div>
 
+    <div class="player-container" id="player_container">
+        <div class="back-share-container">
+
+            <img class="back-icon" id="back_btn"src="./ressources/image/backArrow.png" alt="" srcset="">
+            <img class="share-icon" src="ressources/image/share.png" alt="" srcset="">
+
+        </div>
+
+        <div class="audio-visualiser-container">
+
+            <div class="audio-visualiser-canvas">
+                <img class="audio-visualiser-image" src="./ressources/image/audioVisualiser.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="player-controls-container">
+
+            <div class="mix-info-container">
+                <p class="mix-title">TITRE</p>
+                <p class="mix-artist">ARTISTE</p>
+
+            </div>
+
+            <div class="audio-progress-container">
+
+                <div class="audio-progress-bar"></div>
+                <div class="audio-progress-circle"></div>
+
+            </div>
+
+            <div class="audio-player-controls">
+
+                <div class="player-controls-bpn">
+                    <div class="audio-player-back">
+
+                        <img src="./ressources/image/last.png" alt="" srcset="">
+
+                    </div>
+
+                    <div class="audio-player-play">
+
+                        <img src="./ressources/image/play.png" alt="" srcset="">
+
+                    </div>
+
+                    <div class="audio-player-next">
+
+                        <img src="./ressources/image/next.png" alt="" srcset="">
+
+                    </div>
+                </div>
+
+                <div class="player-controls-rs">
+                    <div class="audio-player-replay">
+
+                        <img src="./ressources/image/replay.png" alt="" srcset="">
+
+                    </div>
+
+                    <div class="audio-player-shuffle">
+
+                        <img src="./ressources/image/shuffle.png" alt="" srcset="">
+
+                    </div>
+                </div>   
+                <div class="audio-player-volume">
+                    <img src="./ressources/image/volume.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
 
 <script type="module" src="app.js"></script>
 

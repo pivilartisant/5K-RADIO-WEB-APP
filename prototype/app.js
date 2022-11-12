@@ -63,3 +63,16 @@ function getImg(data){
 // }
 
 
+const player = document.getElementById('player_container')
+const testBtn = document.getElementById('logo')
+const backBtn = document.getElementById('back_btn')
+
+testBtn.addEventListener('click', ()=>{
+  player.setAttribute('class','player-container-active')
+  console.log('click')
+})
+
+backBtn.addEventListener('click', ()=>{
+  player.setAttribute('class','player-container')
+  console.log('click')
+})
