@@ -1,5 +1,12 @@
+
+@media screen and (min-width:1043px) and (max-width:1920px){
+
+body {
+    background-color: green;
+}
+
 .cover-image {
-    margin: 2px 4px 2px 4px;
+    margin: 4px 4px 4px 4px;
    
     height: 200px;
     width: 200px;
@@ -9,11 +16,9 @@
   
     height: 100%;
     max-height: 100vh;
-    width: fit-content;
-    max-width: 60vw;
-   
-    display: flex;
+    width: 60vw;
 
+    display: flex;
     overflow: scroll;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -26,8 +31,13 @@
 }
     
 .cover-image-container{
-    width: fit-content;
+    /* width: fit-content;
     max-width: 1040px;
     display: flex;
+    flex-wrap: wrap; */
+    width:fit-content;
+    height: 100%;
+    display: flex;
     flex-wrap: wrap;
+}
 }
