@@ -1,78 +1,29 @@
-//Declaring my variables
-let radioData;
-const coverImgContainer = document.getElementById('cover_image_container');
-
-//My request URL
-const reqUrl = 'data/db.json'; 
-
-//Fetch call 
-getData(reqUrl);
+import {radioData, coverImgContainer, reqUrl, getData, getImg, player, testBtn, backBtn} from './modules/getdata.js'
 
 
-//getData Fetch function
-async function getData(url){
-    const request = new Request(url)
-    const response = await fetch(request)
-    radioData = await response.json()
-    // console.log(radioData);
-    // getInfo(radioData)
-    getImg(radioData)
-  }
+const mixCover = document.getElementsByClassName('cover-image');
+const mixLibrary= [];
+let mixMp3;
 
+//This would be called in my app.js 
 
+setTimeout(getMp3,1000)
+setTimeout(testFunction,2000, mixLibrary)
 
-//create a function that displays each title in radioData array
-
-// function getInfo(data){ 
-//   for (let i = 0; i< data.length; i++){
-//     // console.log(data[i].TITRE)
-//     const newDiv = document.createElement('div')
-//     newDiv.innerHTML = `${data[i].TITRE} - ${data[i].ARTISTE} `
-
-//     document.body.appendChild(newDiv)
-//   }
-// }
-
-//refactor the get info function to show the mix covers instead of the title 
-
-//add IF statement that checks to see if the jpg exists
-
-
-function getImg(data){ 
-  for (let i = 0; i< data.length; i++){
-    // console.log(data[i].TITRE)
-  //  const newDiv = document.createElement('div')
-   const img = document.createElement('img')
-   img.src = `assets/${data[i].DIR}.jpg`
-   img.setAttribute('class', 'cover-image')
-   img.alt = `${data[i].TITRE} could not be loaded`
-  //  newDiv.appendChild(img)
-  //  coverImgContainer.appendChild(newDiv)
-   coverImgContainer.appendChild(img)
-  }
+function getMp3(){
+    for (let i = 0; i < mixCover.length; i++){
+        mixLibrary.push(mixCover.item(i))
+    }
 }
 
-// function getImg(data){ 
-//    // console.log(data[i].TITRE)
-//    const newDiv = document.createElement('div')
-//    const img = document.createElement('img')
-//    img.src = `assets/${data[i].DIR}.jpg`
-//    newDiv.appendChild(img)
+function testFunction (arr){
+    arr.forEach(element => {
+        element.addEventListener('click', ()=> console.log(element))
+    });
+}
 
-//    document.body.appendChild(newDiv)
-// }
+function assignMp3 (arr) {
+   console.log(arr)
+}
 
-
-const player = document.getElementById('player_container')
-const testBtn = document.getElementById('logo')
-const backBtn = document.getElementById('back_btn')
-
-testBtn.addEventListener('click', ()=>{
-  player.setAttribute('class','player-container-active')
-  console.log('click')
-})
-
-backBtn.addEventListener('click', ()=>{
-  player.setAttribute('class','player-container')
-  console.log('click')
-})
+// coverImg.addEventListener('click',() =>{console.log('click')})

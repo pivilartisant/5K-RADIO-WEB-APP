@@ -10,3 +10,9 @@ console.log(audioElement)
 
 // pass it into the audio context
 // const track = audioContext.createMediaElementSource(audioElement);
+
+function testFunction (data){
+    console.log(data)
+}
+
+export {testFunction}

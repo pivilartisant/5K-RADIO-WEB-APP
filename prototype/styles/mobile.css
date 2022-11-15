@@ -53,6 +53,10 @@
         align-items: center;
     }
 
+    /*=======
+   Search
+    =========*/
+
     .search-filter-container{
         position: relative;
         margin-top: 64px;
@@ -223,17 +227,21 @@
         justify-content: flex-start;
     
     }
+
+
     
     .mix-title{
+        font-size: 24px;
         margin-right: 10px;
     }
     
     .mix-artist{
+        font-size: 24px;
         margin-left:10px;
     }
     
     .audio-progress-container{
-        margin-top: 8px;
+        margin-top: 34px;
     
         margin-bottom: 16px;
         
