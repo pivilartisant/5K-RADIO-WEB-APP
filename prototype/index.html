@@ -58,17 +58,16 @@
 
         <div class="audio-visualiser-container">
 
-            <div class="audio-visualiser-canvas">
-                <img class="audio-visualiser-image" src="./ressources/image/audioVisualiser.png" alt="">
-            </div>
+            <canvas class="audio-visualiser-canvas" id="audio_canvas"></canvas>
 
         </div>
 
         <div class="player-controls-container">
 
+
             <div class="mix-info-container">
-                <p class="mix-title">TITRE</p>
-                <p class="mix-artist">ARTISTE</p>
+                <p class="mix-title" id="title">TITRE</p>
+                <p class="mix-artist" id="artist">ARTISTE</p>
 
             </div>
 
@@ -88,11 +87,11 @@
 
                     </div>
 
-                    <div class="audio-player-play">
+                    <button data-playing="false" role="switch" aria-checked="false" class="audio-player-play">
 
                         <img src="./ressources/image/play.png" alt="" srcset="">
 
-                    </div>
+                    </button>
 
                     <div class="audio-player-next">
 
@@ -121,9 +120,11 @@
         </div>
     </div>
 
+    <audio src="" ></audio>
+
 </main>
 
-<script type="module" src="app.js"></script>
+<script type="module" src="app.js" id="mix"></script>
 
 </body>
 </html>

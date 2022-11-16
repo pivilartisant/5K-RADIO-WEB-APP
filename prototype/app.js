@@ -1,29 +1,8 @@
-import {radioData, coverImgContainer, reqUrl, getData, getImg, player, testBtn, backBtn} from './modules/getdata.js'
+import {radioData, coverImgContainer, reqUrl, getData, getImg, player, testBtn, backBtn} from './modules/getRequest.js';
 
+import  {mixCover, mixLibrary, mixSrc, setMixToArr, getMp3Src, assignMp3} from './modules/clickEventToSrc.js';
 
-const mixCover = document.getElementsByClassName('cover-image');
-const mixLibrary= [];
-let mixMp3;
+import {AudioContext, audioContext, audioElement, track, playButton, playMix} from './modules/player.js'; 
 
-//This would be called in my app.js 
+import {audioCtx, source, analyserNode, bufferLength, dataArray, canvas, canvasCtx, draw} from './modules/visualiser.js'
 
-setTimeout(getMp3,1000)
-setTimeout(testFunction,2000, mixLibrary)
-
-function getMp3(){
-    for (let i = 0; i < mixCover.length; i++){
-        mixLibrary.push(mixCover.item(i))
-    }
-}
-
-function testFunction (arr){
-    arr.forEach(element => {
-        element.addEventListener('click', ()=> console.log(element))
-    });
-}
-
-function assignMp3 (arr) {
-   console.log(arr)
-}
-
-// coverImg.addEventListener('click',() =>{console.log('click')})
