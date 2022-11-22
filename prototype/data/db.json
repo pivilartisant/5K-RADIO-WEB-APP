@@ -6,7 +6,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandalll-mental-1fra-163-bpm/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "MENTAL",
-    "DIR": "BD5KRADIO/mental163/mental163"
+    "DIR": "BD5KRADIO/mental163/mental163",
+    "ID": 0
   },
   {
     "TITRE": "What a feeling",
@@ -15,7 +16,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/what-a-feeling/",
     "STYLE": "ALTERNATIVE",
     "SUBSTYLE": "INDIE",
-    "DIR": "BD5KRADIO/whatAFeel/whatAFeel"
+    "DIR": "BD5KRADIO/whatAFeel/whatAFeel",
+    "ID": 1
   },
   {
     "TITRE": "Back to Back",
@@ -24,7 +26,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/back-to-back-zzz/",
     "STYLE": "RAP",
     "SUBSTYLE": "TRAP",
-    "DIR": "BD5KRADIO/back2back/back2back"
+    "DIR": "BD5KRADIO/back2back/back2back",
+    "ID": 2
   },
   {
     "TITRE": "Feel da Phonk vol.1 : Back to 90s Memphis",
@@ -33,7 +36,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/feel-da-phonk-vol1-back-to-90s-memphis/",
     "STYLE": "RAP",
     "SUBSTYLE": "PHONK",
-    "DIR": "BD5KRADIO/feelDaPhonk/feelDaPhonk"
+    "DIR": "BD5KRADIO/feelDaPhonk/feelDaPhonk",
+    "ID": 3
   },
   {
     "TITRE": "Hardtek",
@@ -42,7 +46,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-hardtek/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "HARDTEK",
-    "DIR": "BD5KRADIO/hardtek/hardtek"
+    "DIR": "BD5KRADIO/hardtek/hardtek",
+    "ID": 4
   },
   {
     "TITRE": "Sonideros sound",
@@ -51,16 +56,18 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-sondieros-sound/",
     "STYLE": "LATIN",
     "SUBSTYLE": "SALSA",
-    "DIR": "BD5KRADIO/sondieros/sondieros"
+    "DIR": "BD5KRADIO/sondieros/sondieros",
+    "ID": 5
   },
   {
     "TITRE": "Reggaeton & rap",
-    "ARTISTE": "BEAT&COOT03",
+    "ARTISTE": "MAGE",
     "DUREE": "01:03:31",
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/mage-reggaeton-rap/",
     "STYLE": "LATIN",
     "SUBSTYLE": "REGGAETON",
-    "DIR": "BD5KRADIO/rapAndReggaeton/rapAndReggaeton"
+    "DIR": "BD5KRADIO/rapAndReggaeton/rapAndReggaeton",
+    "ID": 6
   },
   {
     "TITRE": "Hardcore Invazion",
@@ -69,7 +76,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-hardcore-invazion/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "HARDCORE",
-    "DIR": "BD5KRADIO/coreInvazion/coreInvazion"
+    "DIR": "BD5KRADIO/coreInvazion/coreInvazion",
+    "ID": 7
   },
   {
     "TITRE": "Spécial Hip-Hip pour la ferme de l'ilôt",
@@ -78,7 +86,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/special-hip-hop-pour-la-ferme-de-lilot-mgbzzxbtct/",
     "STYLE": "RAP",
     "SUBSTYLE": "OLDSCHOOL",
-    "DIR": "BD5KRADIO/hiphopFerme/hiphopFerme"
+    "DIR": "BD5KRADIO/hiphopFerme/hiphopFerme",
+    "ID": 8
   },
   {
     "TITRE": "Peinard",
@@ -87,7 +96,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/peinard-dj-beatc00to-2021/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/peinard/peinard"
+    "DIR": "BD5KRADIO/peinard/peinard",
+    "ID": 9
   },
   {
     "TITRE": "Freestyle.II",
@@ -96,7 +106,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/mgbzz-freestyleii/",
     "STYLE": "MIX",
     "SUBSTYLE": null,
-    "DIR": "BD5KRADIO/freestyleII/freestyleII"
+    "DIR": "BD5KRADIO/freestyleII/freestyleII",
+    "ID": 10
   },
   {
     "TITRE": "The Paris Oddities",
@@ -105,7 +116,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/gloomy-the-paris-oddities/",
     "STYLE": "POP",
     "SUBSTYLE": "HAZEPOP",
-    "DIR": "BD5KRADIO/parisOdd/parisOdd"
+    "DIR": "BD5KRADIO/parisOdd/parisOdd",
+    "ID": 11
   },
   {
     "TITRE": "Cult Girlfriend",
@@ -114,7 +126,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/pivi-cult-girlfriend/",
     "STYLE": "ALTERNATIVE",
     "SUBSTYLE": "INDIE",
-    "DIR": "BD5KRADIO/cultGf/cultGf"
+    "DIR": "BD5KRADIO/cultGf/cultGf",
+    "ID": 12
   },
   {
     "TITRE": "Trajet II",
@@ -123,7 +136,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/vandal-trajet-ii/",
     "STYLE": "MIX",
     "SUBSTYLE": null,
-    "DIR": "BD5KRADIO/trajetII/trajetII"
+    "DIR": "BD5KRADIO/trajetII/trajetII",
+    "ID": 13
   },
   {
     "TITRE": "What's in my head",
@@ -132,7 +146,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/mage-whats-in-my-head/",
     "STYLE": "ROCK",
     "SUBSTYLE": "PSYCHDELIC",
-    "DIR": "BD5KRADIO/myHead/myHead"
+    "DIR": "BD5KRADIO/myHead/myHead",
+    "ID": 14
   },
   {
     "TITRE": "Pournima Dhumale",
@@ -141,7 +156,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/raag-bheem-pourniama-dhumale-dj-ez/",
     "STYLE": "RAAG",
     "SUBSTYLE": "BHEEM",
-    "DIR": "BD5KRADIO/pournima/pournima"
+    "DIR": "BD5KRADIO/pournima/pournima",
+    "ID": 15
   },
   {
     "TITRE": "420'",
@@ -150,7 +166,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/420-beatcoot0-x-mgbzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/420/420"
+    "DIR": "BD5KRADIO/420/420",
+    "ID": 16
   },
   {
     "TITRE": "Fleurs Fanées vol.IV",
@@ -159,7 +176,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/fleurs-fanees-voliv/",
     "STYLE": "RAP",
     "SUBSTYLE": "OLDSCHOOL",
-    "DIR": "BD5KRADIO/fleursFaneesIV/fleursFaneesIV"
+    "DIR": "BD5KRADIO/fleursFaneesIV/fleursFaneesIV",
+    "ID": 17
   },
   {
     "TITRE": "Monsieur Jack",
@@ -168,7 +186,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/monsieur-jack-par-dj-vandal/",
     "STYLE": "TECHNO",
     "SUBSTYLE": null,
-    "DIR": "BD5KRADIO/monsieurJack/monsieurJack"
+    "DIR": "BD5KRADIO/monsieurJack/monsieurJack",
+    "ID": 18
   },
   {
     "TITRE": "Cxld Chrxstmxs",
@@ -177,7 +196,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/cxld-chrxstmxs-par-btct/",
     "STYLE": "ALTERNATIVE",
     "SUBSTYLE": "COLDWAVE",
-    "DIR": "BD5KRADIO/cxldChrxstmxs/cxldChrxstmxs"
+    "DIR": "BD5KRADIO/cxldChrxstmxs/cxldChrxstmxs",
+    "ID": 19
   },
   {
     "TITRE": "Sweet Dreams",
@@ -186,7 +206,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/sweet-dreams-par-mgbzz/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/sweetDream/sweetDream"
+    "DIR": "BD5KRADIO/sweetDream/sweetDream",
+    "ID": 20
   },
   {
     "TITRE": "Champotek",
@@ -195,7 +216,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/champotek-par-mgbzz/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "ACID",
-    "DIR": "BD5KRADIO/champotek/champotek"
+    "DIR": "BD5KRADIO/champotek/champotek",
+    "ID": 21
   },
   {
     "TITRE": "FREESTYLE",
@@ -204,7 +226,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/freestyle-par-mgbzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/freestyle/freestyle"
+    "DIR": "BD5KRADIO/freestyle/freestyle",
+    "ID": 22
   },
   {
     "TITRE": "Balance tes sons",
@@ -213,7 +236,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/balances-tes-sons-par-btct/",
     "STYLE": "ROCK",
     "SUBSTYLE": "PSYCHDELIC",
-    "DIR": "BD5KRADIO/balance/balance"
+    "DIR": "BD5KRADIO/balance/balance",
+    "ID": 23
   },
   {
     "TITRE": "L part.III",
@@ -222,7 +246,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/l-partiii-mgbz-x-btct/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/lpIII/lpIII"
+    "DIR": "BD5KRADIO/lpIII/lpIII",
+    "ID": 24
   },
   {
     "TITRE": "Supertra(m)p",
@@ -231,7 +256,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/supertrans-by-dj-ez/",
     "STYLE": "RAP",
     "SUBSTYLE": "TRAP",
-    "DIR": "BD5KRADIO/supertramp/supertramp"
+    "DIR": "BD5KRADIO/supertramp/supertramp",
+    "ID": 25
   },
   {
     "TITRE": "Flying",
@@ -240,7 +266,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/flying-dj-mgbzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/flying/flying"
+    "DIR": "BD5KRADIO/flying/flying",
+    "ID": 26
   },
   {
     "TITRE": "23 Tribes",
@@ -249,7 +276,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/23-tribes-by-dj-vandal/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "TRIBE",
-    "DIR": "BD5KRADIO/23tribes/23tribes"
+    "DIR": "BD5KRADIO/23tribes/23tribes",
+    "ID": 27
   },
   {
     "TITRE": "80's bby",
@@ -258,7 +286,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/80s-bby-by-dj-beatcoot0/",
     "STYLE": "ROCK",
     "SUBSTYLE": "GOTHIC",
-    "DIR": "BD5KRADIO/80sBby/80sBby"
+    "DIR": "BD5KRADIO/80sBby/80sBby",
+    "ID": 28
   },
   {
     "TITRE": "Shoegaze de l'Europe de l'Est",
@@ -267,7 +296,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/shoegaze-deurope-de-lest-by-dj-beatcoot0/",
     "STYLE": "ROCK",
     "SUBSTYLE": "SHOEGAZE",
-    "DIR": "BD5KRADIO/shoegazeEast/shoegazeEast"
+    "DIR": "BD5KRADIO/shoegazeEast/shoegazeEast",
+    "ID": 29
   },
   {
     "TITRE": "Smooth State",
@@ -276,7 +306,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/smooth-state-dj-vandal/",
     "STYLE": "TECHNO",
     "SUBSTYLE": null,
-    "DIR": "BD5KRADIO/smoothState/smoothState"
+    "DIR": "BD5KRADIO/smoothState/smoothState",
+    "ID": 30
   },
   {
     "TITRE": "Fleurs fanées vol.II",
@@ -285,7 +316,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/fleurs-fanees-volii-dj-vandal/",
     "STYLE": "RAP",
     "SUBSTYLE": "OLDSCHOOL",
-    "DIR": "BD5KRADIO/fleursFaneesII/fleursFaneesII"
+    "DIR": "BD5KRADIO/fleursFaneesII/fleursFaneesII",
+    "ID": 31
   },
   {
     "TITRE": "Samedi 11h43, batteries sur secteur",
@@ -294,7 +326,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/samedi-11h43-batteries-sur-secteur-by-dj-beatc00t0/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/samediBatterie/samediBatterie"
+    "DIR": "BD5KRADIO/samediBatterie/samediBatterie",
+    "ID": 32
   },
   {
     "TITRE": "Special 5K RADIO",
@@ -303,7 +336,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/special-podcast-for-5k-radio-paris-by-ghernati/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "DEEP",
-    "DIR": "BD5KRADIO/ghernati/ghernati"
+    "DIR": "BD5KRADIO/ghernati/ghernati",
+    "ID": 33
   },
   {
     "TITRE": "Lowtimes",
@@ -312,7 +346,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/lowtimes-dj-bruss-x-dj-mgbzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/lowTimes/lowTimes"
+    "DIR": "BD5KRADIO/lowTimes/lowTimes",
+    "ID": 34
   },
   {
     "TITRE": "Tech me somewhere fun",
@@ -321,7 +356,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/tech-me-somewhere-fun-by-dj-likma/",
     "STYLE": "TECHNO",
     "SUBSTYLE": null,
-    "DIR": "BD5KRADIO/techMe/techMe"
+    "DIR": "BD5KRADIO/techMe/techMe",
+    "ID": 35
   },
   {
     "TITRE": "Needing ... change",
@@ -330,7 +366,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/phases/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/needingChange/needingChange"
+    "DIR": "BD5KRADIO/needingChange/needingChange",
+    "ID": 36
   },
   {
     "TITRE": "Souvenirs d'enfance vol.II",
@@ -339,7 +376,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/souvenir-denfance-volii-ou-un-dimanche-sous-la-pluie-by-dj-mgbzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/souvenirII/souvenirII"
+    "DIR": "BD5KRADIO/souvenirII/souvenirII",
+    "ID": 37
   },
   {
     "TITRE": "Souvenirs d'enfance vol.I",
@@ -348,7 +386,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/souvenirs-denfance-voli-ou-un-dimanche-sous-la-couette-by-dj-mgbzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/souvenirI/souvenirI"
+    "DIR": "BD5KRADIO/souvenirI/souvenirI",
+    "ID": 38
   },
   {
     "TITRE": "Eclektik vol.I",
@@ -357,7 +396,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/eclectik-voli-by-dj-beatcoot0/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/eclektikI/eclektikI"
+    "DIR": "BD5KRADIO/eclektikI/eclektikI",
+    "ID": 39
   },
   {
     "TITRE": "Mall Goth",
@@ -366,7 +406,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/mall-goth-by-dj-ez/",
     "STYLE": "ROCK",
     "SUBSTYLE": "GOTHIC",
-    "DIR": "BD5KRADIO/mallGoth/mallGoth"
+    "DIR": "BD5KRADIO/mallGoth/mallGoth",
+    "ID": 40
   },
   {
     "TITRE": "Désordre Mental n°23",
@@ -375,7 +416,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/desordre-mental-n3-by-dj-vandal/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "MENTAL",
-    "DIR": "BD5KRADIO/desordreMental23/desordreMental23"
+    "DIR": "BD5KRADIO/desordreMental23/desordreMental23",
+    "ID": 41
   },
   {
     "TITRE": "Voices against apartheid",
@@ -384,7 +426,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/voices-against-apartheid-by-dj-beatcoot0/",
     "STYLE": "POLITICS",
     "SUBSTYLE": "SOUTH AFRICA",
-    "DIR": "BD5KRADIO/voixContre/voixContre"
+    "DIR": "BD5KRADIO/voixContre/voixContre",
+    "ID": 42
   },
   {
     "TITRE": "WALKA",
@@ -393,7 +436,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/walka-by-dj-mgbzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "EAST EUROPE",
-    "DIR": "BD5KRADIO/walka/walka"
+    "DIR": "BD5KRADIO/walka/walka",
+    "ID": 43
   },
   {
     "TITRE": "V2LS 2016",
@@ -402,7 +446,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/v2ls-2016-dj-ez/",
     "STYLE": "RAP",
     "SUBSTYLE": "OLDSCHOOL",
-    "DIR": "BD5KRADIO/v2ls16/v2ls16"
+    "DIR": "BD5KRADIO/v2ls16/v2ls16",
+    "ID": 44
   },
   {
     "TITRE": "No technicality",
@@ -411,7 +456,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/no-technicality-dj-ez/",
     "STYLE": "RAP",
     "SUBSTYLE": "TRAP",
-    "DIR": "BD5KRADIO/noTech/noTech"
+    "DIR": "BD5KRADIO/noTech/noTech",
+    "ID": 45
   },
   {
     "TITRE": "UNDERGROUND RESISTANCE",
@@ -420,7 +466,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/underground-resistance-detroits-second-techno-wave/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "DETROIT",
-    "DIR": "BD5KRADIO/ur/ur"
+    "DIR": "BD5KRADIO/ur/ur",
+    "ID": 46
   },
   {
     "TITRE": "L part.II",
@@ -429,7 +476,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/l-partii/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/lpII/lpII"
+    "DIR": "BD5KRADIO/lpII/lpII",
+    "ID": 47
   },
   {
     "TITRE": "Fleurs fanées",
@@ -438,7 +486,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/fleurs-fanees-by-dj-vandal/",
     "STYLE": "RAP",
     "SUBSTYLE": "OLDSCHOOL",
-    "DIR": "BD5KRADIO/fleursFanees/fleursFanees"
+    "DIR": "BD5KRADIO/fleursFanees/fleursFanees",
+    "ID": 48
   },
   {
     "TITRE": "Zamrock",
@@ -447,7 +496,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/zamrock-by-dj-beatscoot0/",
     "STYLE": "ROCK",
     "SUBSTYLE": "ZAMBIA",
-    "DIR": "BD5KRADIO/zamrock/zamrock"
+    "DIR": "BD5KRADIO/zamrock/zamrock",
+    "ID": 49
   },
   {
     "TITRE": "Aléatoire vol.III",
@@ -456,7 +506,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/aleatoire-voliii-by-dj-zzz/",
     "STYLE": "RAP",
     "SUBSTYLE": "ARABIC",
-    "DIR": "BD5KRADIO/aleIII/aleIII"
+    "DIR": "BD5KRADIO/aleIII/aleIII",
+    "ID": 50
   },
   {
     "TITRE": "Trajet",
@@ -465,7 +516,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/trajet/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/trajet/trajet"
+    "DIR": "BD5KRADIO/trajet/trajet",
+    "ID": 51
   },
   {
     "TITRE": "L part.I",
@@ -474,7 +526,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/l-part-1-dj-mgbz-x-dj-beatcoot0/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/lpI/lpI"
+    "DIR": "BD5KRADIO/lpI/lpI",
+    "ID": 52
   },
   {
     "TITRE": "Objectif Lune",
@@ -483,7 +536,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/objectif-lune/",
     "STYLE": "TECHNO",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/objectifLune/objectifLune"
+    "DIR": "BD5KRADIO/objectifLune/objectifLune",
+    "ID": 53
   },
   {
     "TITRE": "On shuffle",
@@ -492,7 +546,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/on-shuffle-special-middle-east-x-india-bengal-rap-by-dj-zzz/",
     "STYLE": "MIX",
     "SUBSTYLE": "ARABIC",
-    "DIR": "BD5KRADIO/shuffle/shuffle"
+    "DIR": "BD5KRADIO/shuffle/shuffle",
+    "ID": 54
   },
   {
     "TITRE": "SSHHLLWWTRBZ",
@@ -501,7 +556,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/sshhllwwtrbz/",
     "STYLE": "RAP",
     "SUBSTYLE": "SESH",
-    "DIR": "BD5KRADIO/sshllwtrbz/sshllwtrbz"
+    "DIR": "BD5KRADIO/sshllwtrbz/sshllwtrbz",
+    "ID": 55
   },
   {
     "TITRE": "Sémiramis",
@@ -510,7 +566,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/semiramis-by-dj-vandal/",
     "STYLE": "TECHNO",
     "SUBSTYLE": null,
-    "DIR": "BD5KRADIO/semiramis/semiramis"
+    "DIR": "BD5KRADIO/semiramis/semiramis",
+    "ID": 56
   },
   {
     "TITRE": "LONDON BURNIN'",
@@ -519,7 +576,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/london-burnin/",
     "STYLE": "RAP",
     "SUBSTYLE": "GRIME",
-    "DIR": "BD5KRADIO/londonBurnin/londonBurnin"
+    "DIR": "BD5KRADIO/londonBurnin/londonBurnin",
+    "ID": 57
   },
   {
     "TITRE": "American Beauty",
@@ -528,7 +586,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/american-beauty/",
     "STYLE": "ALTERNATIVE",
     "SUBSTYLE": "INDIE",
-    "DIR": "BD5KRADIO/americanBeauty/americanBeauty"
+    "DIR": "BD5KRADIO/americanBeauty/americanBeauty",
+    "ID": 58
   },
   {
     "TITRE": "From East to West",
@@ -537,7 +596,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/from-east-to-west-classic-hiphop/",
     "STYLE": "RAP",
     "SUBSTYLE": "OLDSCHOOL",
-    "DIR": "BD5KRADIO/eastToWest/eastToWest"
+    "DIR": "BD5KRADIO/eastToWest/eastToWest",
+    "ID": 59
   },
   {
     "TITRE": "Shoegazer",
@@ -546,7 +606,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/shoegazer-par-djfondu-et-djtransi/",
     "STYLE": "ROCK",
     "SUBSTYLE": "SHOEGAZE",
-    "DIR": "BD5KRADIO/shoegazer/shoegazer"
+    "DIR": "BD5KRADIO/shoegazer/shoegazer",
+    "ID": 60
   },
   {
     "TITRE": "SIAK",
@@ -555,7 +616,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/siak/",
     "STYLE": "MIX",
     "SUBSTYLE": "CHILL",
-    "DIR": "BD5KRADIO/siak/siak"
+    "DIR": "BD5KRADIO/siak/siak",
+    "ID": 61
   },
   {
     "TITRE": "Rap oldschool",
@@ -564,7 +626,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/rap-oldschool-by-djvandal/",
     "STYLE": "RAP",
     "SUBSTYLE": "OLDSCHOOL",
-    "DIR": "BD5KRADIO/rapOldschool/rapOldschool"
+    "DIR": "BD5KRADIO/rapOldschool/rapOldschool",
+    "ID": 62
   },
   {
     "TITRE": "Nueve Uno",
@@ -573,7 +636,8 @@
     "URL": "https://www.mixcloud.com/5KRADIOLIVE/nueve-uno/",
     "STYLE": "RAP",
     "SUBSTYLE": "FRENCH",
-    "DIR": "BD5KRADIO/nueveUno/nueveUno"
+    "DIR": "BD5KRADIO/nueveUno/nueveUno",
+    "ID": 63
   },
   {
     "TITRE": "Staff Benda Billili",
@@ -582,7 +646,8 @@
     "URL": "N/A",
     "STYLE": "CHILL",
     "SUBSTYLE": "N/A",
-    "DIR": "BD5KRADIO/staff/staff"
+    "DIR": "BD5KRADIO/staff/staff",
+    "ID": 64
   },
   {
     "TITRE": "Berlin Entrance",
@@ -591,7 +656,8 @@
     "URL": "N/A",
     "STYLE": "TECHNO",
     "SUBSTYLE": "N/A",
-    "DIR": "BD5KRADIO/berlinEntrance/berlinEntrance"
+    "DIR": "BD5KRADIO/berlinEntrance/berlinEntrance",
+    "ID": 65
   },
   {
     "TITRE": "Et ça galope",
@@ -600,6 +666,7 @@
     "URL": "N/A",
     "STYLE": "TECHNO",
     "SUBSTYLE": "N/A",
-    "DIR": "BD5KRADIO/caGalope/caGalope"
+    "DIR": "BD5KRADIO/caGalope/caGalope",
+    "ID": 66
   }
 ]

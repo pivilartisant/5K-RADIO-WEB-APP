@@ -25,14 +25,18 @@ playButton.addEventListener(
       audioContext.resume();
     }
 
+
+
     // Play or pause track depending on state
     if (playButton.dataset.playing === "false") {
       audioElement.play();
       playButton.dataset.playing = "true";
+      playButton.src = 'prototype/ressources/image/pause.png'
       console.log('playing')
     } else if (playButton.dataset.playing === "true") {
       audioElement.pause();
       playButton.dataset.playing = "false";
+      playButton.src = 'prototype/ressources/image/p.png'
       console.log('pause')
     }
   },
@@ -44,7 +48,7 @@ playButton.addEventListener(
 
 function playMix (){
    // Check if context is in suspended state (autoplay policy)
-   if (audioContext.state === "suspended") {
+  if (audioContext.state === "suspended") {
     audioContext.resume();
   }
 

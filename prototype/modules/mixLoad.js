@@ -1,4 +1,5 @@
 import {audioElement, playMix} from './player.js'
+import { reqUrl } from './getRequest.js';
 
 /*========
 VARIABLES
@@ -6,16 +7,12 @@ VARIABLES
 
 //Declaring my variables
 const mixCover = document.getElementsByClassName('cover-image');
+// const mixTitle = document.getElementById('title')
+// const mixArtist = document.getElementById('artist')
+const mixInfo = document.getElementById('mix_info')
 const mixLibrary= [];
 let mixSrc;
 
-/*==============
-CALLING FUNCTIONS
-================*/
-
-//Timeout function do get my async data
-setTimeout(setMixToArr,1000)
-setTimeout(getMp3Src,2000, mixLibrary)
 
 /*========
 FUNCTIONS
@@ -35,9 +32,27 @@ function getMp3Src (arr){
     });
 }
 
+
 function assignMp3 (data) {
-    audioElement.src= `${data.src.slice(0, -3)}mp3`;
+    mixSrc = `${data.src.slice(0, -3)}mp3`;
+    audioElement.src = mixSrc;
+    console.log(data.alt)
+    getInfo(data.alt);
     playMix();
+}
+
+//Function that when called displays the mix info into the player info section
+
+function getInfo(index){
+    fetch(reqUrl)
+        .then(res => res.json())
+        .then(json => {assignInfo(json[index])})
+}
+
+function assignInfo (data){
+    // mixTitle.textContent = data.TITRE
+    // mixArtist.textContent = data.ARTISTE
+    mixInfo.textContent = `${data.TITRE} - ${data.ARTISTE}`
 }
 
 // coverImg.addEventListener('click',() =>{console.log('click')})
