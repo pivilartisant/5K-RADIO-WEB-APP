@@ -17,13 +17,14 @@ function getImg(data){
     coverImgContainer.appendChild(img)
 };
 
-//Funcitions 
+//Assign sthe mp3 src to my audio element & play mix
 function assignMp3 (data) {
     audioElement.src  = `${data.src.slice(0, -3)}mp3`;
     assignInfo(mixLibrary[data.alt])
     playMix();
 }
 
+//injects mix info to the dom
 function assignInfo (data){
     mixInfo.textContent = `${data.TITRE} - ${data.ARTISTE}`
 };

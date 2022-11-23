@@ -5,7 +5,7 @@ const mixLibrary= [];
 //My request URL
 const reqUrl = 'data/db.json'; 
 
-//getData Fetch function
+// Fetch json function
 function getData(url){
       fetch(reqUrl)
         .then(res => res.json())
