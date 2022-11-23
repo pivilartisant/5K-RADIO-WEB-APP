@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 //Declaring my variables
 let radioData;
 
@@ -11,6 +12,10 @@ const player = document.getElementById('player_container');
 const testBtn = document.getElementById('logo');
 const backBtn = document.getElementById('back_btn');
 
+=======
+import {mixInfo, getImg} from './mixLoad.js'
+const mixLibrary= [];
+>>>>>>> Stashed changes
 //My request URL
 const reqUrl = 'data/db.json'; 
 
@@ -18,13 +23,13 @@ const reqUrl = 'data/db.json';
 getData(reqUrl, getImg);
 
 //getData Fetch function
-async function getData(url, fn){
-    const request = new Request(url);
-    const response = await fetch(request);
-    radioData = await response.json()
-    fn(radioData)
+async function getData(url,fn){
+    fetch(reqUrl)
+    .then(res => res.json())
+    .then(data => {fn(data)})
   }
 
+<<<<<<< Updated upstream
 
 //create a function that displays each title in radioData array
 function getImg(data){ 
@@ -57,3 +62,23 @@ backBtn.addEventListener('click', ()=>{
 
 
 export {radioData, coverImgContainer, reqUrl, getData, getImg, player, testBtn, backBtn}
+=======
+function setMixToArr(data){
+    for (let i = 0; i < data.length-1; i++){
+        mixLibrary.push(data[i])
+  }
+}
+
+//Function that when called displays the mix info into the player info section
+function getInfo(index){
+  fetch(reqUrl)
+      .then(res => res.json())
+      .then(data => {assignInfo(data[index])})
+}
+
+function assignInfo (data){
+  mixInfo.textContent = `${data.TITRE} - ${data.ARTISTE}`
+}
+
+export {reqUrl, getData,setMixToArr ,getInfo, assignInfo, mixLibrary}
+>>>>>>> Stashed changes

@@ -58,8 +58,13 @@ function playMix (){
     playButton.dataset.playing = "false";
     console.log('pause')
   }
+<<<<<<< Updated upstream
 }
 
+=======
+};
+ 
+>>>>>>> Stashed changes
 audioElement.addEventListener(
   "ended",
   () => {
@@ -67,6 +72,5 @@ audioElement.addEventListener(
   },
   false
 );
-
 
 export {AudioContext, audioContext, audioElement, track, playButton, playMix}
