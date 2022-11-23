@@ -4,7 +4,6 @@ const playBtn = document.getElementById('playBtn')
 
 // for legacy browsers
 const AudioContext = window.AudioContext || window.webkitAudioContext;
-
 const audioContext = new AudioContext();
 
 // get the audio element
@@ -16,11 +15,9 @@ const track = audioContext.createMediaElementSource(audioElement);
 track.connect(audioContext.destination);
 
 //Play button on click sideffects
-
-playButton.addEventListener("click", () => {playMix() },false);
+playButton.addEventListener("click", () => {playMix()},false);
 
 function playMix (){
-
   // Check if context is in suspended state (autoplay policy)
   if (audioContext.state === "suspended") {
     audioContext.resume();
@@ -41,7 +38,6 @@ function playMix (){
   }
 }
 
-
 //Mix cover on click side effect
 //will need to be modified so when i click on another mix it auto plays 
 
@@ -52,6 +48,5 @@ audioElement.addEventListener(
   },
   false
 );
-
 
 export {AudioContext, audioContext, audioElement, track, playButton, playMix}

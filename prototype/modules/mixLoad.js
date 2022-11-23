@@ -1,46 +1,31 @@
-import {audioElement, playMix} from './player.js'
-import { reqUrl, getInfo, assignInfo } from './getRequest.js';
-
-/*========
-VARIABLES
-========*/
+import {audioElement, playMix} from './player.js';
+import {mixLibrary} from './getRequest.js';
 
 //Declaring my variables
+const coverImgContainer = document.getElementById('cover_image_container');
 const mixCover = document.getElementsByClassName('cover-image');
-// const mixTitle = document.getElementById('title')
-// const mixArtist = document.getElementById('artist')
-const mixInfo = document.getElementById('mix_info')
-const mixLibrary= [];
-let mixSrc;
+const mixInfo = document.getElementById('mix_info');
 
 
-/*========
-FUNCTIONS
-=========*/ 
+//create a function that displays each title in radioData array
+function getImg(data){ 
+    let img = document.createElement('img')
+    img.src = `assets/${data.DIR}.jpg`
+    img.alt = `${data.ID}`
+    img.setAttribute('class', 'cover-image')
+    img.addEventListener('click', ()=> assignMp3(img))
+    coverImgContainer.appendChild(img)
+};
 
-//HTML collection to array
-function setMixToArr(){
-    for (let i = 0; i < mixCover.length; i++){
-        mixLibrary.push(mixCover.item(i))
-    }
-}
-
-//Event listener that retrieves src and formats the data to recompose the mp3 link 
-function getMp3Src (arr){
-    arr.forEach(element => {
-        element.addEventListener('click', ()=> assignMp3(element))
-    });
-}
-
-
+//Funcitions 
 function assignMp3 (data) {
-    mixSrc = `${data.src.slice(0, -3)}mp3`;
-    audioElement.src = mixSrc;
-    console.log(data.alt)
-    getInfo(data.alt);
+    audioElement.src  = `${data.src.slice(0, -3)}mp3`;
+    assignInfo(mixLibrary[data.alt])
     playMix();
 }
 
-// coverImg.addEventListener('click',() =>{console.log('click')})
+function assignInfo (data){
+    mixInfo.textContent = `${data.TITRE} - ${data.ARTISTE}`
+};
 
-export {mixCover, mixLibrary, mixSrc,mixInfo, setMixToArr, getMp3Src, assignMp3}
+export {mixCover,coverImgContainer, mixInfo, getImg, assignMp3, assignInfo};
