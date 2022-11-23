@@ -8,18 +8,31 @@ const mixInfo = document.getElementById('mix_info');
 
 
 //create a function that displays each title in radioData array
+// function getImg(data){ 
+//     let img = document.createElement('img')
+//     img.src = `assets/${data.DIR}.jpg`
+//     img.alt = `${data.ID}`
+//     img.setAttribute('class', 'cover-image')
+//     img.addEventListener('click', ()=> assignMp3(img))
+//     coverImgContainer.appendChild(img)
+// };
+
 function getImg(data){ 
+    data.forEach(element => {
+    // console.log(data.indexOf(element))
     let img = document.createElement('img')
-    img.src = `assets/${data.DIR}.jpg`
-    img.alt = `${data.ID}`
+    img.src = `assets/${element.DIR}.jpg`
+    img.alt = data.indexOf(element)
     img.setAttribute('class', 'cover-image')
     img.addEventListener('click', ()=> assignMp3(img))
     coverImgContainer.appendChild(img)
+    });
 };
 
 //Funcitions 
 function assignMp3 (data) {
     audioElement.src  = `${data.src.slice(0, -3)}mp3`;
+    console.log(data.alt)
     assignInfo(mixLibrary[data.alt])
     playMix();
 }
