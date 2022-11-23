@@ -1,5 +1,5 @@
 import {audioElement, playMix} from './player.js'
-import { reqUrl } from './getRequest.js';
+import { reqUrl, getInfo, assignInfo } from './getRequest.js';
 
 /*========
 VARIABLES
@@ -41,20 +41,6 @@ function assignMp3 (data) {
     playMix();
 }
 
-//Function that when called displays the mix info into the player info section
-
-function getInfo(index){
-    fetch(reqUrl)
-        .then(res => res.json())
-        .then(json => {assignInfo(json[index])})
-}
-
-function assignInfo (data){
-    // mixTitle.textContent = data.TITRE
-    // mixArtist.textContent = data.ARTISTE
-    mixInfo.textContent = `${data.TITRE} - ${data.ARTISTE}`
-}
-
 // coverImg.addEventListener('click',() =>{console.log('click')})
 
-export {mixCover, mixLibrary, mixSrc, setMixToArr, getMp3Src, assignMp3}
+export {mixCover, mixLibrary, mixSrc,mixInfo, setMixToArr, getMp3Src, assignMp3}

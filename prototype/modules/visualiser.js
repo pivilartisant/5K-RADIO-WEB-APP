@@ -4,7 +4,7 @@ const audioCtx = new AudioContext();
 const source = audioCtx.createMediaElementSource(audioElement);
 const analyserNode = audioCtx.createAnalyser();
 
-analyserNode.fftSize = 512;
+analyserNode.fftSize = 1024;
 const bufferLength = analyserNode.frequencyBinCount;
 const dataArray = new Float32Array(bufferLength);
 
@@ -31,8 +31,7 @@ function draw() {
     let posX = 0;
     for (let i = 0; i < bufferLength; i++) {
       const barHeight = (dataArray[i] + 140) * 2;
-      canvasCtx.fillStyle =
-        "rgb(" + Math.floor(barHeight + 50) + ", 0, 255)";
+      canvasCtx.fillStyle = "rgb(" + Math.floor(barHeight + 50) + ", 0, 255)";
       canvasCtx.fillRect(
         posX,
         canvas.height - barHeight / 2,

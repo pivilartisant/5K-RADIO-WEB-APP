@@ -1,3 +1,5 @@
+import {mixInfo} from './mixLoad.js'
+
 //Declaring my variables
 let radioData;
 
@@ -23,21 +25,32 @@ async function getData(url, fn){
 //create a function that displays each title in radioData array
 function getImg(data){ 
   for (let i = 0; i< data.length; i++){
-   const img = document.createElement('img')
-   img.src = `assets/${data[i].DIR}.jpg`
-   img.setAttribute('class', 'cover-image')
-   coverImgContainer.appendChild(img)
-   img.alt = `${data[i].ID}`
+  // const div = document.createElement('div')
+  const img = document.createElement('img')
+  img.src = `assets/${data[i].DIR}.jpg`
+  // div.setAttribute('class','temp-class')
+  img.setAttribute('class', 'cover-image')
+  // div.appendChild(img)
+  coverImgContainer.appendChild(img)
+  img.alt = `${data[i].ID}`
   }
 }
 
 //Function that when called displays the mix info into the player info section
 
-// function getInfo(index){
-//   fetch(reqUrl)
-//       .then(res => res.json())
-//       .then(json => {console.log(json[index].TITRE)})
-// }
+function getInfo(index){
+  fetch(reqUrl)
+      .then(res => res.json())
+      .then(json => {assignInfo(json[index])})
+}
+
+function assignInfo (data){
+  // mixTitle.textContent = data.TITRE
+  // mixArtist.textContent = data.ARTISTE
+  mixInfo.textContent = `${data.TITRE} - ${data.ARTISTE}`
+}
+
+
  
 //Modal popup in mobile format
 testBtn.addEventListener('click', ()=>{
@@ -51,4 +64,4 @@ backBtn.addEventListener('click', ()=>{
 })
 
 
-export {radioData, coverImgContainer, reqUrl, getData, getImg, player, testBtn, backBtn}
+export {radioData, coverImgContainer, reqUrl, getData, getImg,getInfo,assignInfo, player, testBtn, backBtn}
