@@ -7,6 +7,18 @@ const mixCover = document.getElementsByClassName('cover-image');
 const mixInfo = document.getElementById('mix_info');
 
 
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    }
+    return array;
+}
 //create a function that displays each title in radioData array
 // function getImg(data){ 
 //     let img = document.createElement('img')
@@ -19,7 +31,6 @@ const mixInfo = document.getElementById('mix_info');
 
 function getImg(data){ 
     data.forEach(element => {
-    // console.log(data.indexOf(element))
     let img = document.createElement('img')
     img.src = `assets/${element.DIR}.jpg`
     img.alt = data.indexOf(element)
@@ -41,4 +52,4 @@ function assignInfo (data){
     mixInfo.textContent = `${data.TITRE} - ${data.ARTISTE}`
 };
 
-export {mixCover,coverImgContainer, mixInfo, getImg, assignMp3, assignInfo};
+export {mixCover,coverImgContainer, mixInfo,shuffle, getImg, assignMp3, assignInfo};
