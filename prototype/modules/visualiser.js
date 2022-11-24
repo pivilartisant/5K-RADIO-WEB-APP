@@ -4,6 +4,7 @@ const audioCtx = new AudioContext();
 const source = audioCtx.createMediaElementSource(audioElement);
 const analyserNode = audioCtx.createAnalyser();
 
+
 analyserNode.fftSize = 1024;
 const bufferLength = analyserNode.frequencyBinCount;
 const dataArray = new Float32Array(bufferLength);
