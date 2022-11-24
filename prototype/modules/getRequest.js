@@ -1,19 +1,20 @@
-import {mixInfo, getImg} from './mixLoad.js'
+import {mixInfo,shuffle, getImg} from './mixLoad.js'
 
 //Declaring my variables
 const mixLibrary= [];
 //My request URL
 const reqUrl = 'data/db.json'; 
 
-// Fetch json function
-function getData(url){
-      fetch(reqUrl)
+//getData Fetch function
+async function getData(url){
+    await fetch(reqUrl)
         .then(res => res.json())
-        .then(data => { data.forEach(element => {
-            getImg(element)
-            mixLibrary.push(element)
-        });
+        .then(data => {
+            data.forEach(element => {
+            mixLibrary.push(element)});    
     })  
+    await shuffle(mixLibrary)
+    getImg(mixLibrary)
 }
 
 export { reqUrl, mixLibrary, getData}
