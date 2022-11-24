@@ -11,3 +11,5 @@ testBtn.addEventListener('click', ()=>{
     player.setAttribute('class','player-container')
     console.log('click')
   })
+
+  export {testBtn, backBtn}

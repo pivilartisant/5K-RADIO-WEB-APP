@@ -1,3 +1,5 @@
+ import {backBtn, testBtn} from './modules/dom.js'
+
 import {reqUrl, getData} from './modules/getRequest.js';
 
 import  {mixCover,coverImgContainer ,mixInfo ,shuffle ,getImg ,assignMp3, assignInfo} from './modules/mixLoad.js';
