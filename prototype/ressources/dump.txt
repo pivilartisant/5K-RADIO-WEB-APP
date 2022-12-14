@@ -42,3 +42,22 @@ function shuffle(array) {
   
     return array;
   }
+
+
+  <!-- <input
+                    type="range"
+                    id="volume"
+                    class="control-volume"
+                    min="0"
+                    max="2"
+                    value="1"
+                    list="gain-vals"
+                    step="0.01"
+                    data-action="volume"
+                  />
+                  <datalist id="gain-vals">
+                    <option value="0" label="min"></option>
+                    <option value="2" label="max"></option>
+                  </datalist> -->
+        
+                  <!-- <label for="volume">VOL</label> -->

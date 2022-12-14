@@ -3,21 +3,22 @@ const playButton = document.getElementById("play_button");
 const playBtn = document.getElementById('playBtn')
 
 // for legacy browsers
-const AudioContext = window.AudioContext || window.webkitAudioContext;
-const audioContext = new AudioContext();
+let AudioContext;  
+let audioContext;
 
 // get the audio element
 let audioElement = document.querySelector("audio");
 
 // pass it into the audio context
-const track = audioContext.createMediaElementSource(audioElement);
-
-track.connect(audioContext.destination);
+let track;
 
 //Play button on click sideffects
 playButton.addEventListener("click", () => {playMix()},false);
 
 function playMix (){
+  if(!audioContext){
+    createAudioCtx()
+  }
   // Check if context is in suspended state (autoplay policy)
   if (audioContext.state === "suspended") {
     audioContext.resume();
@@ -49,4 +50,11 @@ audioElement.addEventListener(
   false
 );
 
-export {AudioContext, audioContext, audioElement, track, playButton, playMix}
+function createAudioCtx(){
+AudioContext = window.AudioContext || window.webkitAudioContext;
+audioContext = new AudioContext();
+track = audioContext.createMediaElementSource(audioElement);
+track.connect(audioContext.destination);
+}
+
+export {AudioContext, audioContext, audioElement, track, playButton, playMix, createAudioCtx}
