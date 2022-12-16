@@ -66,8 +66,7 @@
 
 
             <div class="mix-info-container">
-                <p class="mix-title" id="title">TITRE</p>
-                <p class="mix-artist" id="artist">ARTISTE</p>
+                <p class="mix-info" id="mix_info"></p>
 
             </div>
 
@@ -78,44 +77,21 @@
 
             </div>
 
-            <div class="audio-player-controls">
+            <div class="audio-player-controls-container">
 
-                <div class="player-controls-bpn">
-                    <div class="audio-player-back">
+                <div class="player-controls">
+                    
+                    <button data-playing="false" role="switch" aria-checked="false" class="audio-player-play" id="play_button">
 
-                        <img src="./ressources/image/last.png" alt="" srcset="">
-
-                    </div>
-
-                    <button data-playing="false" role="switch" aria-checked="false" class="audio-player-play">
-
-                        <img src="./ressources/image/play.png" alt="" srcset="">
+                        <img   id="playBtn" src="./ressources/image/play.png" alt="" srcset="">
 
                     </button>
 
-                    <div class="audio-player-next">
+                    <!-- <button class="audio-player-volume">
 
-                        <img src="./ressources/image/next.png" alt="" srcset="">
+                        <img src="./ressources/image/volume.png" alt="" srcset="" class="audio-volume">
 
-                    </div>
-                </div>
-
-                <div class="player-controls-rs">
-                    <div class="audio-player-replay">
-
-                        <img src="./ressources/image/replay.png" alt="" srcset="">
-
-                    </div>
-
-                    <div class="audio-player-shuffle">
-
-                        <img src="./ressources/image/shuffle.png" alt="" srcset="">
-
-                    </div>
-                </div>   
-                <div class="audio-player-volume">
-                    <img src="./ressources/image/volume.png" alt="" srcset="">
-                </div>
+                    </button> -->
             </div>
         </div>
     </div>

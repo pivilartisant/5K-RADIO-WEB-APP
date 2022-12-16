@@ -1,8 +1,17 @@
-import {radioData, coverImgContainer, reqUrl, getData, getImg, player, testBtn, backBtn} from './modules/getRequest.js';
+ import {backBtn, testBtn} from './modules/dom.js'
 
-import  {mixCover, mixLibrary, mixSrc, setMixToArr, getMp3Src, assignMp3} from './modules/clickEventToSrc.js';
+import {reqUrl, getData} from './modules/getRequest.js';
 
-import {AudioContext, audioContext, audioElement, track, playButton, playMix} from './modules/player.js'; 
+import  {mixCover,coverImgContainer ,mixInfo ,shuffle ,getImg ,assignMp3, assignInfo} from './modules/mixLoad.js';
+
+import {AudioContext, audioContext, audioElement, track, playButton, playMix, createAudioCtx} from './modules/player.js'; 
 
 import {audioCtx, source, analyserNode, bufferLength, dataArray, canvas, canvasCtx, draw} from './modules/visualiser.js'
+
+
+//Fetch call to get image
+window.addEventListener('load', ()=> {
+    getData(reqUrl);
+})
+
 

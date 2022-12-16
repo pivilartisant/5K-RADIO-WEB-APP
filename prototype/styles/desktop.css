@@ -116,25 +116,29 @@
 
 
     .mix-lib-container{
-        /* position: relative;
-        top: 64px; */
-  
-        margin-top: 124px;
-
         height: 100%;
-        max-height: 100vh;
-        width: 100%;
+        min-height: 100%;
+        width: fit-content;
         display: flex;
-        
+    }
+
+    .cover-image-container{
+        width: fit-content;
+
         overflow: scroll;
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
+
     }
 
     /* .player-container-active{
         display: none;
        } */
-       
+    
+    .cover-image-container{
+        margin-top: 64px;
+        width: fit-content;
+    }
     .cover-image {
         margin:3.5px 3.5px 3.5px 3.5px;
        
@@ -158,10 +162,7 @@
     ==========================*/
 
     .player-container{
-        /* position: fixed;
-        top:0px;
-        left:100%; */
-
+    
         margin: 20px;
 
         width: 470px;
@@ -169,50 +170,29 @@
         
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-
-        background-color: black;
-        
-        /* display: none; */
+        justify-content: flex-end;  
     }    
-    .back-share-container{
-        width: 100%;
-    
-        padding-top:8px;
-        padding-bottom:8px;
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-    
 
-    }
-    .back-icon{
-        margin-left: 20px;
-    }
-    .share-icon{
-        margin-right: 20px;
-    }
+    .back-share-container{
+        display: none
+   }
     
     .audio-visualiser-container{
-        height: 60vh;
         width:100%;
     }
 
     .audio-visualiser-canvas{
-        height: 100%;
+        height: 470px;
         width: 100%;
     }
     
     .player-controls-container{
-        /* padding-top: 8px;
-        padding-right: 20px;
-        padding-left: 20px; */
         
         width: 100%;
+
         color: white;
+
+        margin-bottom: 8px; 
 
         display: flex;
         flex-direction: column;
@@ -224,30 +204,30 @@
     .mix-info-container{
         width:100%;
 
-        margin-bottom: 8px;
-    
+        padding-top: 4px;
+        padding-bottom: 4px;
+
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;        
+        justify-content: flex-start;  
+
     }
 
-    .mix-title{
-        font-size: 24px;
-        margin-right: 10px;
+    .mix-info{
+        font-size: 20px;
+        line-height: 30px;
     }
-    
-    .mix-artist{
-        font-size: 24px;
-        margin-left:10px;
-    }
+
     
     .audio-progress-container{
+
+        height: 100%;
         width: 100%;
-        margin-top: 34px;
-    
-        margin-bottom: 16px;
+
+        padding-top: 4px;
+        padding-bottom: 4px;
+
     }
-    
     
     .audio-progress-bar{
         border-bottom: solid 2px white;
@@ -266,34 +246,33 @@
         background-color: white;
     }
     
-    .audio-player-controls{
+    .audio-player-controls-container{
+        height: 100%;
+        width: 100%;      
+    }
+    
+    .player-controls{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 16px;    
-    }
-    
-    .player-controls-bpn, .player-controls-rs{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: flex-start;
     }
     
     button {
         background: transparent;
         border: none;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        padding: 4px 0px 4px 0px;
+        margin: 0px 20px 0px 0px;
     }
-     
-    .audio-player-play, .audio-player-replay, .audio-player-shuffle{
-        
-        margin-right: 14px;
-        margin-left: 14px;
-    }
-    
-    .audio-player-back img, .audio-player-play img, .audio-player-next img, .audio-player-replay img, .audio-player-shuffle img, .audio-player-volume img{
-        
+
+    button img {
         height: 28px;
     }
 }

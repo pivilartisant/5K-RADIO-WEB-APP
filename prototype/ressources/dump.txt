@@ -24,3 +24,40 @@
   "SUBSTYLE": "GABBER",
   "DIR": "BD5KRADIO/roadToSpeed/roadToSpeed (no mp3)"
 },
+
+function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+  
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
+    }
+  
+    return array;
+  }
+
+
+  <!-- <input
+                    type="range"
+                    id="volume"
+                    class="control-volume"
+                    min="0"
+                    max="2"
+                    value="1"
+                    list="gain-vals"
+                    step="0.01"
+                    data-action="volume"
+                  />
+                  <datalist id="gain-vals">
+                    <option value="0" label="min"></option>
+                    <option value="2" label="max"></option>
+                  </datalist> -->
+        
+                  <!-- <label for="volume">VOL</label> -->
