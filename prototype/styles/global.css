@@ -6,3 +6,18 @@
     /* background-color: black; */
     font-family: 'Libre Franklin', sans-serif;
 }
+
+
+.cover-image-container{
+    width: fit-content;
+
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+.cover-image-container::-webkit-scrollbar{
+    display: none;
+
+}

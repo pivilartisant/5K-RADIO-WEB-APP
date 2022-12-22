@@ -1,5 +1,6 @@
-import {audioElement, playMix} from './player.js';
+import {audioElement, playMix} from './player2.js';
 import {mixLibrary} from './getRequest.js';
+import { setState, player} from './dom.js';
 
 //Declaring my variables
 const coverImgContainer = document.getElementById('cover_image_container');
@@ -36,6 +37,7 @@ function getImg(data){
     img.alt = data.indexOf(element)
     img.setAttribute('class', 'cover-image')
     img.addEventListener('click', ()=> assignMp3(img))
+    img.addEventListener('click', ()=> setState(player))
     coverImgContainer.appendChild(img)
     });
 };
