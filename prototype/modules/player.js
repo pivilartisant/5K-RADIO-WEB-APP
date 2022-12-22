@@ -1,9 +1,5 @@
 
 
-// // Select our play button
-// const playButton = document.getElementById("play_button");
-// const playBtn = document.getElementById('playBtn')
-
 // // for legacy browsers
 // let AudioContext;  
 // let audioContext;
