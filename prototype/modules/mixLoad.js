@@ -1,4 +1,4 @@
-import {audioElement, playMix} from './player2.js';
+import {audioElement, playMix} from './player.js';
 import {mixLibrary} from './getRequest.js';
 import { setState, player} from './dom.js';
 

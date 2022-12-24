@@ -15,7 +15,6 @@ testBtn.addEventListener('click', ()=>{
   function setState(elm){
     if (width<=480){
       elm.setAttribute('class','player-container-active')
-      console.log('setState function')
     }
   }
 

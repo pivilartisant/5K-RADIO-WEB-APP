@@ -145,12 +145,8 @@
     /*======================
     player
     ==========================*/
-
     .player-container{
-        /* position: fixed;
-        top:0px;
-        left:100%; */
-
+    
         margin: 20px;
 
         width: 470px;
@@ -158,42 +154,21 @@
         
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
+        justify-content: flex-end;  
+    }    
 
-        background-color: black;
-        
-        /* display: none; */
-    }
 
-    /* .player-container-active{
-     display: none;
-    } */
     
     .back-share-container{
-        width: 100%;
-    
-        padding-top:8px;
-        padding-bottom:8px;
-    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
+       display: none;
     
 
     }
-    .back-icon{
-        margin-left: 20px;
-    }
-    .share-icon{
-        margin-right: 20px;
-    }
+    
     
     .audio-visualiser-container{
-        /* padding-right: 20px;
-        padding-left: 20px; */
-        height: 60vh;
+        /* background-color: aqua; */
+        height: 60vh; 
         width:100%;
     }
 
@@ -203,44 +178,46 @@
     }
     
     .player-controls-container{
-        padding-top: 8px;
-        /* padding-right: 20px;
-        padding-left: 20px; */
-        
         width: 100%;
+
         color: white;
+
+        margin-bottom: 8px; 
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
     
     }
     
     .mix-info-container{
         width:100%;
 
-        margin-bottom: 8px;
-    
+        padding-top: 4px;
+        padding-bottom: 4px;
+
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: flex-start; 
         
     }
 
 
-    
-    .mix-title{
-        font-size: 24px;
-        margin-right: 10px;
-    }
-    
-    .mix-artist{
-        font-size: 24px;
-        margin-left:10px;
+    .mix-info{
+        font-size: 20px;
+        line-height: 30px;
     }
     
     .audio-progress-container{
 
+        height: 100%;
         width: 100%;
-        margin-top: 34px;
-    
-        margin-bottom: 16px;
+
+        padding-top: 4px;
+        padding-bottom: 4px;
+
 
     }
     
@@ -262,33 +239,35 @@
         background-color: white;
     }
     
-    .audio-player-controls{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-bottom: 16px;
-    
+    .audio-player-controls-container{
+        height: 100%;
+        width: 100%;      
     }
     
-    .player-controls-bpn, .player-controls-rs{
+    .player-controls{
+        width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
+    }
+    
+    button {
+        background: transparent;
+        border: none;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
-    }
-    
-     
-    .audio-player-play, .audio-player-replay, .audio-player-shuffle{
-        
-        margin-right: 14px;
-        margin-left: 14px;
-    }
-    
-    .audio-player-back img, .audio-player-play img, .audio-player-next img, .audio-player-replay img, .audio-player-shuffle img, .audio-player-volume img{
-        
-        height: 28px;
+        align-content: center;
+
+        padding: 4px 0px 4px 0px;
+        margin: 0px 20px 0px 0px;
     }
 
+    button img {
+        height: 28px;
+    }
 
 
 }
