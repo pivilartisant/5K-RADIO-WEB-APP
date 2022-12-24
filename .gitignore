@@ -1,5 +1,7 @@
-prototype/ressources/dump.txt
-prototype/ressources/getJson.txt
-prototype/ressources/task.txt
-prototype/node_modules
-prototype/assets
+/prototype/ressources/dump.txt
+/prototype/ressources/getJson.txt
+/prototype/ressources/task.txt
+/prototype/node_modules
+/prototype/assets
+
+
